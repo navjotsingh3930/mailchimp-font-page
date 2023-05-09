@@ -90,6 +90,34 @@ text-decoration: underline;
     display: flex;
 }
 .startFreeBtnContainer > button{
-    background-color: red;
+    border-radius: 15px;
+    padding: 15px;
+    padding: 10px 15px;
+    outline: none;
 }
 
+.startFreeBtnContainer > button:hover{
+    border: 3px solid black;
+    border-top: 2px solid black;
+    cursor: pointer;
+}
+
+/* card container */
+.cardContainer{
+
+}
+.card{
+
+}
+.cardTopContainer{
+    background: url('../images/Desktop_Feature_Cards_1_Automations.webp');
+}
+.cardBottomContainer{
+
+}
+.cardBottomContainer > button{
+
+}
+.cardDescription{
+
+}
