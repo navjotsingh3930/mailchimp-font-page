@@ -63,3 +63,33 @@ text-decoration: underline;
   */
 
 }
+/* container styling */
+<body>
+.NavBar{
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    font-size: larger;
+    text-align: center;
+}
+.subContainer > .content{
+
+}
+
+.startFreeBtnContainer{
+    display: flex;
+}
+.startFreeBtnContainer > button{
+    background-color: red;
+}
+
