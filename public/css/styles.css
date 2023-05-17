@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .NavBar{
     display: flex;
     flex-direction: row;
@@ -173,3 +177,185 @@ text-decoration: underline;
 .bg_brown_100{
     background-color:#ffffff ;
 }
+/* business Card container */
+.__CardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.ContentCard{
+   width: 49.5%;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+
+}
+.content{
+    padding: 20px 12px;
+    font-size: 24px;
+    /* /* text-align: center; */
+}
+.__btn{
+    border: none;
+    padding: 15px 7px;
+    border-radius: 12px;
+    background-color: bisque;
+}
+.ImageCard{
+  width: 49.5%;
+}
+._Img{
+    width:100%;
+}
+._Img > img{
+    width:100%;
+    
+}
+
+.marketingCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.marketingContentCard{
+    width: 49.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.marketingContent{
+    padding: 30px 0px;
+    font-size: larger;
+}
+.startTargeting{
+    border: 2px solid black;
+    padding: 15px 7px;
+    border-radius: 12px;
+    background-color: burlywood;
+}
+.marketingImageCard{
+
+width: 49.5%;
+}
+ .marketingImageCard > img{
+    width: 100%;
+ }     
+ .cutomerContainer{
+  
+    display: flex;
+    flex-direction: row;
+ }
+ .cutomerImageContainer{
+    width: 49.5%;
+ }
+ .customerImageContainer > img{
+    width: 100%;
+ }
+ .customerContentContainer{
+    width: 49.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .customerContent{
+    padding: 30px 0px;
+    font-size: larger;
+    width: 100%;
+ }
+ .startOptimizing{
+    border: 2px solid black;
+    padding: 15px 7px;
+    border-radius: 12px;
+    background-color: burlywood;
+ }
+ .row_reverse{
+    flex-direction: row-reverse;
+ }
+ /* multiCard Container .*/
+ .__multiCardContainer{
+    display: flex;
+    flex-direction: column;
+ }
+.cardHeading{
+    
+}
+.cardBody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+._card{
+    width:33.3%;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.imgContainer{
+    
+}
+.imgContainer > img{
+    
+}
+._contentContainer{
+    
+}
+._contentHeading{
+    
+}
+.content{
+    
+}
+ .maincontainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(251, 238, 202, 1);
+ }
+.heading1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 64px;
+    padding: 15px;
+    margin: 12px auto;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    padding: 15px;
+    width: 50%;
+    text-align: center;
+    margin: 12px auto;
+}
+.button{
+ display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 15px 7px;
+    background-color: rgba(255, 224, 27, 1);
+}
+.disclaimer{
+background-color: #efeeea;
+padding: 12px;
+}
+.disclaimer_heading{
+
+}
+.disclaimer_Ol{
+
+}
+.disclaimer_Ol > li{
+
+}
+
